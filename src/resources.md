@@ -11,7 +11,7 @@ layout: page.hbs
 - [Vision Tracking](/courses/vision-tracking/)
 - [SolidWorks](/courses/solidworks/)
 - [Basic Git](/courses/git-basics/)
-
+- [Project Resource Document](/courses/projectResourceDocument/)
 # Games
 
 - [Powerup 2018](/games/power-up-2018/)

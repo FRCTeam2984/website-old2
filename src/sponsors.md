@@ -45,7 +45,7 @@ We really appreciate your contribution to our team so that we can compete this y
   <img src ="/images/Verance.svg" alt = "Verance">
 </p>
 </a>
-<a href = "http://www.dinigroup.com/web/index.php" target="_blank" rel="external">
+<a href = "http://www.dinigroup.com/web/index.php" target="_blank" rel="external" style="transform: scale(.5, .5);">
 <p>
   <img src ="/images/DiniGroup.svg" alt = "DiniGroup">
 </p>
