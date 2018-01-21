@@ -1,7 +1,7 @@
 article {
-  margin-bottom: 2em;
-  padding-bottom: 0.5em;
-  border-bottom: 1px dotted #a0a0a0;
+  margin-bottom: 10px;
+  padding-bottom: 2px;
+  border-bottom: 1px dotted #686868
 }
 
 article header {
@@ -16,7 +16,7 @@ article header h1 {
 
 article header h2 {
   font-size: 90%;
-  color: #a0a0a0;
+  color: #686868;
 }
 
 article header a {

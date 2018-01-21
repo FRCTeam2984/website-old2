@@ -14,7 +14,7 @@ The Foundation of La Jolla High School (RE: Robotics Club)
 Mail checks to:
 
 <address>
-  <p>La Jolla High School</p>
+  <p style="background-color:">La Jolla High School</p>
   <p>Attn: Melanie Saddler</p>
   <p>750 Nautilus St.</p>
   <p>La Jolla, CA 92037</p>
