@@ -6,6 +6,7 @@ html * {
 html body {
   font-family: Helvetica, sans-serif;
   color: #303030;
+  background-color: #A99C9C;
 }
 
 body>header, body>main, body>footer {
@@ -83,4 +84,14 @@ body>footer img {
   .internal-logo {
     display: inline;
   }
+}
+
+.header {
+  background-color: #AB1E1E;
+  border: black 3px solid;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  color: black;
+  margin-left: 40px;
+  margin-right: 40px;
 }
