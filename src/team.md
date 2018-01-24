@@ -80,7 +80,7 @@ layout: page.hbs
 - **Eric Na** (Freshman)
   - Electrical and Software Member
   - Eric is prepared to learn something outside of regular class.
-![Lukas Koziol's Picture](/images/interview-pictures/ip-lukas-koziol.jpg)
+![Eric Na's Picture](/images/interview-pictures/ip-eric-na.jpg)
 - **Grant Pauker** (Freshman)
   - Electrical and Software Member
   - Grant is prepared to make something that works most of the time.
@@ -136,9 +136,9 @@ FIRST stands for “For Inspiration and Recognition of Science and Technology”
 
 Members are asked to fill out an emergency contact form and take a safety test in order to be at the robotics club. The safety test can be found here along with a guide to help members know what to do and how to be safe.
 
-- [Emergency Contact Form](/pdfs/emergency-contact-form.pdf)
+- [Emergency Contact Form](/pdfs/team-forms/emergency-contact-form.pdf)
 
 YOU DON'T HAVE TO PRINT THE SAFETY TEST!!!!! Just the answers.
 
-- [Safety Test Study Guide](/pdfs/robotics-study-guide.pdf)
-- [Safety Test](/pdfs/robotics-safety-test.pdf)
+- [Safety Test Study Guide](/pdfs/team-forms/robotics-study-guide.pdf)
+- [Safety Test](/pdfs/team-forms/robotics-safety-test.pdf)
