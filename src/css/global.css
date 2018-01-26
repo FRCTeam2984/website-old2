@@ -1,6 +1,7 @@
 html * {
   font-size: 1em;
   box-sizing: border-box;
+  background-color: #9C9C9C;
 }
 
 html body {
