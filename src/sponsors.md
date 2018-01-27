@@ -4,6 +4,14 @@ layout: page.hbs
 styles:
   - sponsors
 ---
+## How your donation will be used
+
+Your donation will be used in one of the following areas:
+
+- Registration for the events
+- Parts for the Robot
+- Transportation Costs
+- New Machines/ Repairing Machines
 
 ## Contribute by Check
 
@@ -31,82 +39,52 @@ We really appreciate your contribution to our team so that we can compete this y
 
 # Our Sponsors (in Progress!)
 <a href = "https://www.qualcomm.com" target="_blank" rel="external">
-<p>
-  <img src ="/images/Qualcomm-logo.svg" alt = "Qualcomm">
-</p>
+  <img src ="/images/sponsors/qualcomm-logo.svg" alt = "Qualcomm">
 </a>
 <a href = "https://www.lockheedmartin.com/us.html" target="_blank" rel="external">
-<p>
-  <img src ="/images/Lockheed_Martin.svg" alt = "Lockheed Martin">
-</p>
+  <img src ="/images/sponsors/lockheed-martin.svg" alt = "Lockheed Martin">
 </a>
 <a href = "https://www.verance.com/" target="_blank" rel="external">
-<p>
-  <img src ="/images/Verance.svg" alt = "Verance">
-</p>
+  <img src ="/images/sponsors/verance.svg" alt = "Verance">
 </a>
-<a href = "http://www.dinigroup.com/web/index.php" target="_blank" rel="external" style="transform: scale(.5, .5);">
-<p>
-  <img src ="/images/DiniGroup.svg" alt = "DiniGroup">
-</p>
+<a href = "http://www.dinigroup.com/web/index.php" target="_blank" rel="external" style="transform: scale(.25, .25);">
+  <img src ="/images/sponsors/dini-group.svg" alt = "DiniGroup">
 </a>
-
-<a href = "https://www.xerox.com/" target="_blank" rel="external">
-<p>
-  <img src ="/images/Xerox_Logo_2008.svg" alt = "Xerox">
-</p>
+<a href = "https://www.onshape.com/" target="_blank" rel="external">
+  <img src ="/images/sponsors/onshape-logo.svg" alt = "OnShape">
 </a>
-
-<!--![Verance Logo](/images/sponsors/verance.svg)-->
+<a href = "https://www.xerox.com/" target="_blank" rel="external" style="transform: scale(20, 20);">
+  <img src ="/images/sponsors/xerox-logo-2008.svg" alt = "Xerox">
+</a>
 <a href = "http://www.acehardware.com/home/index.jsp" target="_blank" rel="external">
-<p>
-  <img src ="/images/Ace_Hardware_Logo.svg" alt = "Ace Hardware">
-</p>
+  <img src ="/images/sponsors/ace-hardware-logo.svg" alt = "Ace Hardware">
 </a>
-<!--![Ace Hardware Logo](/images/sponsors/ace-hardware.svg)-->
-
-
-
 <a href = "http://www.quasarfs.com/" target="_blank" rel="external">
-<p>
-  <img src ="/images/QFS_logo.svg" alt = "Quasar Federal Systems">
-</p>
+  <img src ="/images/sponsors/qfs-logo.svg" alt = "Quasar Federal Systems">
 </a>
 <a href = "http://www.quasarusa.com/" target="_blank" rel="external">
-<p>
-  <img src ="/images/Quasar.svg" alt = "Quasar">
-</p>
+  <img src ="/images/sponsors/quasar.svg" alt = "Quasar">
 </a>
 <a href = "http://www.solidworks.com/" target="_blank" rel="external">
-<p>
-  <img src ="/images/SolidWorks_Logo.svg" alt = "Solid Works">
-</p>
+<img src ="/images/sponsors/solidWorks-logo.svg" alt = "Solid Works">
 </a>
-<!--![SolidWorks Logo](/images/sponsors/SolidWorks_Logo.svg)!-->
 <a href = "http://www.copycove.com/" target="_blank" rel="external">
-<p>
-  <img src ="/images/copy-cove-logo.svg" alt = "Copy Cove">
-</p>
+  <img src ="/images/sponsors/copy-cove-logo.svg" alt = "Copy Cove">
 </a>
 <a href = "http://www.sperr.de/" target="_blank" rel="external">
-<p>
-  <img src ="/images/sperrlogo.svg" alt = "Sperr">
-</p>
+  <img src ="/images/sponsors/sperr-logo.svg" alt = "Sperr">
 </a>
 <h1>Past Sponsors:</h1>
-<div id ="Past spnsors">
+<div id ="Past_Sponsors">
 
   <h2>Thank you for previously sponsoring us!</h2>
-  <p>
-
-  Viasat
-  <br>
-  IntelliSense
-  <br>
-  Nypro
-  <br>
-  Pizza On Pearl
-  <br>
-  The Neurosciences Institute
-  </p>
+    Viasat
+    <br>
+    IntelliSense
+    <br>
+    Nypro
+    <br>
+    Pizza On Pearl
+    <br>
+    The Neurosciences Institute
 </div>
