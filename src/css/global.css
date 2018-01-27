@@ -1,17 +1,12 @@
 html * {
   font-size: 1em;
   box-sizing: border-box;
-  background-color: #9C9C9C;
 }
 
 html body {
   font-family: Helvetica, sans-serif;
-<<<<<<< HEAD
-  color: #000000;
-=======
   color: #303030;
   background-color: #A99C9C;
->>>>>>> 5932d7657d902dd5a52ff965afb6fbf64f1a13da
 }
 
 body>header, body>main, body>footer {
@@ -92,17 +87,7 @@ body>footer img {
 }
 
 .header {
-<<<<<<< HEAD
-  background-color: #B50000;
   padding: 15px;
-  border: 3px black solid;
-=======
   background-color: #AB1E1E;
   border: black 3px solid;
-  padding-bottom: 20px;
-  padding-top: 20px;
-  color: black;
-  margin-left: 40px;
-  margin-right: 40px;
->>>>>>> 5932d7657d902dd5a52ff965afb6fbf64f1a13da
 }
