@@ -74,10 +74,11 @@ We really appreciate your contribution to our team so that we can compete this y
 <a href = "http://www.sperr.de/" target="_blank" rel="external">
   <img src ="/images/sponsors/sperr-logo.svg" alt = "Sperr">
 </a>
-<h1>Past Sponsors:</h1>
-<div id ="Past_Sponsors">
 
+<div id ="Past_Sponsors">
+  <h1>Past Sponsors:</h1>
   <h2>Thank you for previously sponsoring us!</h2>
+
     Viasat
     <br>
     IntelliSense
@@ -87,4 +88,5 @@ We really appreciate your contribution to our team so that we can compete this y
     Pizza On Pearl
     <br>
     The Neurosciences Institute
+
 </div>
