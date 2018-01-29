@@ -24,8 +24,19 @@ layout: page.hbs
 - [Vision Tracking](/courses/vision-tracking/)
 - [SolidWorks](/courses/solidworks/)
 - [Basic Git](/courses/git-basics/)
+<<<<<<< HEAD
+- [Project Resource Document](/courses/projectResourceDocument/)
+# Games
+
+- [Powerup 2018](/games/power-up-2018/)
+
+# FIRST Documentation
+
+- [First Robotics Competition Pneumatics Manual](/pdfs/pneumatics-manual.pdf)
+=======
 - [Vikings Team Manual](/courses/team-manual/)
 - [Vikings Safety Guide](/courses/safety-guide/)
+>>>>>>> 72c10d8f9b3174ae3e0119a658c98e9a9b56f456
 
 # Third Party Documentation
 
