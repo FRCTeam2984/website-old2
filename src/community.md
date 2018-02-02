@@ -5,7 +5,7 @@
 
  # Presentations
 
- As a team we try to do more than just build robots. One of the other things we do is spread awareness of our club to younger students. In the past we have gone to Muirlands middle school as well as Torrey Pines and La Jolla elementary school.
+ 
 
  ![Robotics at the Elementary School](/images/team/visiting-elementary.jpg)
 
