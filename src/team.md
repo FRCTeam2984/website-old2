@@ -1,6 +1,8 @@
 ---
 title: Team
 layout: page.hbs
+styles:
+  - team
 ---
 
 ## Members
