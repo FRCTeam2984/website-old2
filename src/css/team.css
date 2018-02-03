@@ -3,6 +3,11 @@ body>header>h1>a>span>img {
   height: 36px;
 }
 
+body>footer>ul>li>a>img {
+  width: 45px;
+  height: 37px;
+}
+
 img {
   width: 250px;
   height: 200px;
