@@ -5,6 +5,7 @@
 
  # Presentations
 
+ 
 
  ![Robotics at the Elementary School](/images/team/visiting-elementary.jpg)
 
