@@ -1,5 +1,5 @@
 ---
-title: Day 24 - Obstacle Course
+title: Day 25 - Obstacle Course
 subtitle: (Changing to Wide Chassis and preparing for building arm)
 date: 2018-02-03 00:00:00
 updated: 2018-02-03 00:00:00
