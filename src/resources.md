@@ -26,6 +26,7 @@ layout: page.hbs
 - [Basic Git](/courses/git-basics/)
 - [Vikings Team Manual](/courses/team-manual/)
 - [Vikings Safety Guide](/courses/safety-guide/)
+- [How to Order Shirts](/courses/how-to-order-shirts/)
 
 # Third Party Documentation
 
