@@ -1,0 +1,127 @@
+article header h1 {
+  font-weight: bold;
+  margin-bottom: 1em;
+  font-size: 140%;
+}
+
+article .main h1 {
+  font-weight: bold;
+  margin-bottom: 1em;
+  font-size: 110%;
+}
+
+article .main ul {
+  list-style: disc outside none;
+  margin-bottom: 1em;
+}
+
+article .main ol {
+  list-style-type: decimal;
+}
+
+article .main ul, article .main ol {
+  margin-left: 0;
+  padding-left: 2em;
+}
+
+article .main li {
+  margin-bottom: 0.5em;
+}
+
+article .main h1 {
+  font-size: 125%;
+  margin-bottom: 0.5em;
+}
+
+article .main h2 {
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+article .main p {
+  margin-bottom: 1em;
+  line-height: 1.4em;
+}
+
+article .main img {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+  padding-bottom: 0.5em;
+}
+
+article .main ol, article .main ul {
+  margin-bottom: 1em;
+  margin-left: 0;
+  padding-left: 1.5em;
+}
+
+article .main ul {
+  list-style: disc outside none;
+}
+
+article .main li {
+  line-height: 1.3em;
+  margin-bottom: 0.5em;
+}
+
+article .main strong {
+  font-weight: bold;
+}
+
+article .main em {
+  font-style: italic;
+}
+
+article .main sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+article .main sub {
+  vertical-align: sub;
+  font-size: smaller;
+}
+
+article .main address {
+  margin-bottom: 1em;
+}
+
+article .main address p {
+  margin-botton: 0.1em;
+}
+
+article .main .videowrapper {
+  float: none;
+  clear: both;
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0;
+  margin-bottom: 1em;
+}
+
+article .main .videowrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+article .main table {
+  width: 100%;
+}
+
+article .main table th {
+  text-align: left;
+  font-weight: bold;
+  padding-bottom: 1em;
+}
+
+article .main table td {
+  padding-bottom: 1em;
+  padding-right: 1em;
+  line-height: 1.3em;
+}

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+
+    
+
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/global.css">
+
+        <link rel="stylesheet" href="/css/text.css">
+    <link rel="stylesheet" href="/css/post.css">
+
+
+    <link rel="icon" type="image/png" href="/images/favicon.png">
+
+      <title>Viking Vision - FRC Team 2984</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <a href="/">Vikings
+        <span class="internal-logo">
+          <img src="/images/favicon.png" alt="Viking Robotics">
+        </span>
+        Robotics</a>
+      </h1>
+      <nav>
+        <ol>
+          <li><a href="/team/">Team</a></li>
+          <li><a href="/sponsors/">Sponsors</a></li>
+          <li><a href="/calendar/">Calender</a></li>
+          <li><a href="/resources/">Resources</a></li>
+          <li><a href="/blog/">Blog</a></li>
+        </ol>
+      </nav>
+    </header>
+    <main>
+          <article>
+      <header>
+        <h1>Viking Vision</h1>
+        <h2>
+          By Max Apodaca on <time datetime="2017-11-25T14:00:00-08:00" title="November 25th 2017, 14:00-08:00">November 25th, 2017</time>
+        </h2>
+      </header>
+      <div class="main">
+        <p><img src="/images/20171125/VisionAppRunning.JPG" alt="Viking Vision Displaing targets"></p>
+<p>In the pre-season we have been working on adapting the <a href="https://www.team254.com/">Cheesy Poofs’</a> <a href="https://github.com/Team254/FRC-2017-Public/tree/master/vision_app">vision tracking app</a>. We have decided to use a phone to do the vision tracking next year as it offloads the processing from the roboRIO, provides an all in one vision solution, and is easier to debug.</p>
+<h1 id="development-environment">Development Environment</h1>
+<p>Setting up the development environment was fairly straight forward. However, I experienced difficulties with the OpenCV libraries that the app requires. Make sure to follow the README located in the root of the project. This has instructions on how to install OpenCV to android. In addition, Android Studio does not show the C++ source file that does the vision processing. As a result I had to use an external text editor to edit this file.</p>
+<h1 id="how-the-tracker-works">How The Tracker Works</h1>
+<p>The tracker works by finding the two vision targets in the image and then using trigonometry to find their position in 3D space.</p>
+<p><img src="/images/20171125/target.png" alt="Full color image of the vision target"></p>
+<p>The first step in tracking is to find the two targets in an image. This is done by isolating a specific color range in the image. In this case we are using the <a href="https://en.wikipedia.org/wiki/HSL_and_HSV">Hue Saturation Value (HSV)</a> color representation. These values need to be tuned which can be done in the app by holding the lock icon and then selecting the wrench icon. In the image below the white is in the HSV range while the black is outside. The Image to the left is not yet tuned while the right one is.</p>
+<p><img src="/images/20171125/HSVSelection.png" alt="HSV slection process"></p>
+<p>After isolating the targets a contour detector is run over the image. The contour detector finds any contiguous white areas. These contours are then filtered based on their size and shape. Then the algorithm checks to make sure there is a fitting other contour, meaning the second of the two pieces of retro-reflective tape. After all of this is done the position of the vision target can be calculated. The process is outlined in <a href="https://docs.opencv.org/2.4/modules/calib3d/doc/camera_calibration_and_3d_reconstruction.html">this OpenCV guide</a> however I find this convoluted and too complex.</p>
+<p><img src="/images/20171125/cameraDistance.svg" alt="A Diagram of the distance calculation"></p>
+<p> The image above is a side view of camera and vision target. We know h as that is how tall the vision target is in real life (5 inches) and we want to find d. We can use the tangent function to solve for d which yields <strong>d&nbsp;=&nbsp;h&nbsp;/&nbsp;tan&nbsp;(θ)</strong>. To find θ we can use the field of view (FOV) of the camera. A measurement usually found in the camera’s specification or that can be computed. We then can compute θ with the formula <strong>θ&nbsp;=&nbsp;T<sub>h</sub>&nbsp;/&nbsp;C<sub>h</sub>&nbsp;*&nbsp;C<sub>vFOV</sub>&nbsp;</strong> where T<sub>h</sub> is the target’s height in pixels, C<sub>h</sub> is the image’s hight in pixels, and C<sub>vFOV</sub> is the vertical FOV of the camera.</p>
+<p> <img src="/images/20171125/cameraRotation.svg" alt="A Diagram of the angle calculation"></p>
+<p> To find the rotation of the target about the camera a similar method can be used. We can draw a triangle as depicted above to calculate θ. This time we know the camera’s horizontal FOV as well as the number of pixels that the target is from the center of the image. This lets us derive the equation <strong>θ&nbsp;=&nbsp;(2T<sub>x</sub>-C<sub>w</sub>)&nbsp;/&nbsp;C<sub>w</sub>&nbsp;*&nbsp;C<sub>hFOV</sub>/2</strong> where T<sub>x</sub> is the target’s x position, C<sub>w</sub> is the image’s width in pixels, and C<sub>hFOV</sub> is the camera’s horizontal FOV.</p>
+<h2 id="fov-calculation">FOV Calculation</h2>
+<p><img src="/images/20171125/cameraFOV.svg" alt="FOV Calculation"></p>
+<p>To calculate the FOV of a camera place two objects at the edges of the image. The measure the real world distance between the two and the perpendicular distance to the camera. This is illustrated in the figure above. Then we know w and d and need to solve for θ. This can be done by using the equation <strong>θ&nbsp;=&nbsp;tan<sup>-1</sup>(&nbsp;(&nbsp;0.5&nbsp;*&nbsp;w&nbsp;)&nbsp;/&nbsp;d&nbsp;)</strong>.</p>
+<h1 id="conclusion">Conclusion</h1>
+<p> That is all that is necessary for the app to calculate the position of the target. After calculating the position the app sends the target’s position to the roboRIO via the <a href="https://developer.android.com/studio/command-line/adb.html">Android Debug Bridge (ADB)</a>. The source code for the app can be found in the <a href="https://github.com/FRCTeam2984/VikingVision">Git Repository</a>.</p>
+
+      </div>
+    </article>
+
+    </main>
+    <footer>
+      <address>
+        &copy;2017-2018&nbsp;Vikings
+      </address>
+      <address>
+        750 Nautilus St., La Jolla, CA 92037
+      </address>
+      <address>
+        <a href="mailto:ljhsvikingrobotics@gmail.com">ljhsvikingrobotics@gmail.com</a>
+      </address>
+      <ul class="social">
+        <li>
+          <a href="https://github.com/FRCTeam2984"><img src="/images/octo-cat.png" alt="Github"></a>
+        </li>
+      </ul>
+    </footer>
+    
+  </body>
+</html>
