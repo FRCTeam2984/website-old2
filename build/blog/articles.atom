@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <entry>
+    <id>blog/day-26-bada-bing</id>
+      <title>Day 26 - Bada Bing Bada Boom</title>
+      <author>
+        <name>
+          Marshall McInerney (Back from the brink)
+        </name>
+
+      </author>
+      <updated>
+        Mon Feb 05 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/interlude-intake-optimization</id>
+      <title>Interlude: Optimization of a Simple Power Cube Intake</title>
+      <author>
+        <name>
+          Rich Apodaca
+        </name>
+
+      </author>
+      <updated>
+        Sat Feb 03 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-25-car-sage</id>
+      <title>Day 25 Car Sage</title>
+      <author>
+        <name>
+          Tanvir Hussain (Sad without Marshall)
+        </name>
+
+      </author>
+      <updated>
+        Sat Feb 03 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-24-019-clearance</id>
+      <title>Day 24 - .019&#x27;&#x27; Clearance</title>
+      <author>
+        <name>
+          Tanvir Hussain (Lost without Marshall)
+        </name>
+
+      </author>
+      <updated>
+        Fri Feb 02 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-23-goals-in-view</id>
+      <title>Day 23 - Goals In View</title>
+      <author>
+        <name>
+          Tanvir Hussain (Watcher of Blogs)
+        </name>
+
+      </author>
+      <updated>
+        Thu Feb 01 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-22-lots-of-trig</id>
+      <title>Day 22 - Lots of Trig</title>
+      <author>
+        <name>
+          Tanvir Hussain (Trigonometry Master)
+        </name>
+
+      </author>
+      <updated>
+        Wed Jan 31 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-21-headless-driver</id>
+      <title>Day 21 - Headless Driver</title>
+      <author>
+        <name>
+          Tanvir Hussain (Missing Marshall)
+        </name>
+
+      </author>
+      <updated>
+        Tue Jan 30 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-20-all-quiet-on-the-western-front</id>
+      <title>Day 20 - All Quiet on the Western Front</title>
+      <author>
+        <name>
+          Tanvir Hussain (The Truest King)
+        </name>
+
+      </author>
+      <updated>
+        Mon Jan 29 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-19-troubles-in-paradise</id>
+      <title>Day 19 - Troubles in Paradise</title>
+      <author>
+        <name>
+          Marshall McInerney (The True King)
+        </name>
+
+      </author>
+      <updated>
+        Sat Jan 27 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-18-defiance</id>
+      <title>Day 18 - Defiance</title>
+      <author>
+        <name>
+          Marshall McInerney (Your Pilot and Co-Pilot)
+        </name>
+
+      </author>
+      <updated>
+        Fri Jan 26 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-17-one-meal-per-team</id>
+      <title>Day 17 - One Meal Per Team</title>
+      <author>
+        <name>
+          Tanvir Hussain (The Last Member)
+        </name>
+
+      </author>
+      <updated>
+        Thu Jan 25 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-16-liberate-a-nut</id>
+      <title>Day 16 - Liberate the Nut</title>
+      <author>
+        <name>
+          Tanvir Hussain (Your Blogkeeper for the Day)
+        </name>
+
+      </author>
+      <updated>
+        Wed Jan 24 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-15-moderate-dissapointment</id>
+      <title>Day 15 - Suspicious Disappointment</title>
+      <author>
+        <name>
+          Marshall McInerney (Race member)
+        </name>
+
+      </author>
+      <updated>
+        Tue Jan 23 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-14-mentos-and-cough-syrup</id>
+      <title>Day 14 - Mentos and Cough Syrup</title>
+      <author>
+        <name>
+          Marshall McInerney (Sickly)
+        </name>
+
+      </author>
+      <updated>
+        Mon Jan 22 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-13-justiceserved</id>
+      <title>Day 13 - Justice Served</title>
+      <author>
+        <name>
+          Marshall McInerney (With more Money)
+        </name>
+
+      </author>
+      <updated>
+        Sat Jan 20 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-12-rainy-day-blues</id>
+      <title>Day 12 - Rainy Day Blues</title>
+      <author>
+        <name>
+          Marshall McInerney (Alone but not really)
+        </name>
+
+      </author>
+      <updated>
+        Fri Jan 19 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-11-adventures</id>
+      <title>Day 11 - Adventures of Big Boy Jr.</title>
+      <author>
+        <name>
+          Marshall McInerney (Blocky Sr.)
+        </name>
+
+      </author>
+      <updated>
+        Thu Jan 18 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-10-organized-chaos</id>
+      <title>Day 10 - 0rganized Chaos</title>
+      <author>
+        <name>
+          Marshall McInerney (The Buffest Communications Member)
+        </name>
+
+      </author>
+      <updated>
+        Wed Jan 17 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-9-independant-arms</id>
+      <title>Day 9 - Independent Arms</title>
+      <author>
+        <name>
+          Tanvir Hussain and Marshall McInerney
+        </name>
+
+      </author>
+      <updated>
+        Tue Jan 16 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-8-electrons-and-croissants</id>
+      <title>Day 8 - Electrons and Croissants</title>
+      <author>
+        <name>
+          Tanvir Hussain
+        </name>
+
+      </author>
+      <updated>
+        Mon Jan 15 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-7-hindenbot</id>
+      <title>Day 7 - hindenbot</title>
+      <author>
+        <name>
+          Marshall McInerney and Tanvir Hussain
+        </name>
+
+      </author>
+      <updated>
+        Sat Jan 13 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-6-maps-of-the-town</id>
+      <title>Day 6 - Maps Of The Town</title>
+      <author>
+        <name>
+          Marshall McInerney and Tanvir Hussain
+        </name>
+
+      </author>
+      <updated>
+        Sat Jan 13 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-5-content-workers</id>
+      <title>Day 5 - Content Workers</title>
+      <author>
+        <name>
+          Marshall McInerney and Tanvir Hussain
+        </name>
+
+      </author>
+      <updated>
+        Sat Jan 13 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-4-crooked-plans</id>
+      <title>Day 4 - Crooked Plans</title>
+      <author>
+        <name>
+          Marshall McInerney and Tanvir Hussain
+        </name>
+
+      </author>
+      <updated>
+        Sat Jan 13 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-3-frankenstein&#x27;s-robot</id>
+      <title>Day 3 - Frankenstein&#x27;s Robot</title>
+      <author>
+        <name>
+          Marshall McInerney and Tanvir Hussain
+        </name>
+
+      </author>
+      <updated>
+        Sat Jan 13 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-2-build-season-starts</id>
+      <title>Day 2 - Build Season Starts</title>
+      <author>
+        <name>
+          Marshall McInerney and Tanvir Hussain
+        </name>
+
+      </author>
+      <updated>
+        Sat Jan 13 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/day-1-power-up-2018-kickoff</id>
+      <title>Day 1 - Power Up 2018 Kickoff</title>
+      <author>
+        <name>
+          Marshall McInerney, Tanvir Hussain
+        </name>
+
+      </author>
+      <updated>
+        Sat Jan 13 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/cleanup</id>
+      <title>Cleanup Before the Season</title>
+      <author>
+        <name>
+          Tanvir Hussain
+        </name>
+
+      </author>
+      <updated>
+        Sat Jan 13 2018 00:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
+  <entry>
+    <id>blog/viking-vision</id>
+      <title>Viking Vision</title>
+      <author>
+        <name>
+          Max Apodaca
+        </name>
+
+      </author>
+      <updated>
+        Sun Nov 26 2017 10:00:00 GMT+0000 (Pacific)
+      </updated>
+  </entry>
